@@ -1,0 +1,13 @@
+2017-5-13 3:26:58.507 - info: RPBot v2.11.0 is starting...
+2017-5-13 3:26:58.523 - error: uncaughtException: "token" must be specified on the config. date=Mon Jun 12 2017 23:26:58 GMT-0400 (EDT), pid=17918, uid=1000, gid=1000, cwd=/media/kranic/SDD/code/RP/Custom Stuff, execPath=/usr/local/bin/node, version=v7.10.0, argv=[/usr/local/bin/node, /usr/local/bin/rpbot], rss=61755392, heapTotal=38727680, heapUsed=23906776, external=489226, loadavg=[0.6494140625, 0.7841796875, 0.88427734375], uptime=274758
+Error: "token" must be specified on the config.
+    at Bot.createClient (/usr/local/lib/node_modules/discord-rpbot/node_modules/discord-graf/lib/bot/index.js:189:28)
+    at Object.<anonymous> (/usr/local/lib/node_modules/discord-rpbot/lib/rpbot.js:371:4)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:427:7)
+    at startup (bootstrap_node.js:151:9)
